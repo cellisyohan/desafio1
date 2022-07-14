@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+.flex-column{
+    flex-direction: column;
+}
+div{
+    text-decoration: none;
+    color: black;
+}
+.card-propaganda{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to bottom right, #135b95, rgb(177, 196, 206));
+    border-radius: 100%;
+    position: relative;
+   
+}
+.card-propaganda:hover{
+    border: 2px solid red;
+    cursor: pointer;
+}
+main{
+    width: 100%;
+    height: 100vh;
+}
+section{
+    width: 300px;
+}
+.precoProduto{
+    width: 80px;
+    height: 80px;
+    background-image: linear-gradient(to bottom right, rgb(177, 196, 206), #135b95);
+    border-radius: 100%;
+    position: absolute;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    bottom: 0;
+    right: 0;
+    z-index: 200;
+}
+.precoProduto:hover{
+    border: 3px solid black;
+}
+/* .precoProduto1{
+    width: 80px;
+    height: 80px;
+    background-image: linear-gradient(to bottom right, rgb(177, 196, 206), #135b95);
+    border-radius: 100%;
+    position: absolute;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    bottom: 0;
+    left: 0;}
+.precoProduto1:hover{
+    border: 3px solid black;
+}
+.precoProduto2{
+    width: 80px;
+    height: 80px;
+    background-image: linear-gradient(to bottom right, rgb(177, 196, 206), #135b95);
+    border-radius: 100%;
+    position: absolute;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 0;
+    left: 0;}
+.precoProduto2:hover{
+    border: 3px solid black;
+}
+.precoProduto3{
+    width: 80px;
+    height: 80px;
+    background-image: linear-gradient(to bottom right, rgb(177, 196, 206), #135b95);
+    border-radius: 100%;
+    position: absolute;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 0;
+    right: 0;}
+.precoProduto3:hover{
+    border: 3px solid black;
+} */

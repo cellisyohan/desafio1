@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 40px;
+    background-color: #212121;
+    position: relative;
+}
+h1{
+    /* margin: auto; */
+    color: aliceblue;
+    padding-left: 100px;
+    font-size: 23px;
+    font-family: helvetica;
+    padding-top: 8px;
+    padding-bottom: 8px;
+     }
+.alinhar1, .alinhar2, .alinhar3{
+    color: aliceblue;
+    font-size: 18px;
+    height: 30px;
+    cursor: pointer;
+} 
+.alinhar1:hover, .alinhar2:hover, .alinhar3:hover{ 
+    color: black;
+    background-color:#F9A825;
+    -webkit-border-radius:100px;
+    height: 24px;
+    }
+.alinhar1, .alinhar2, .alinhar3, .alinhar1:hover, .alinhar2:hover, .alinhar3:hover{
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+.alinhar1{
+    right: 116px;
+}
+.alinhar2{
+    right: 200px;
+}
+.alinhar3{
+     right: 300px;
+}
+.pos, footer, p, #env, #env:hover, #ar2, #ar1, form{
+    position: absolute;
+}
+#area{
+    width: 600px;
+    height: 250px;
+    border: 1px solid rgb(19, 35, 250);
+    margin: 200px auto;
+    position: relative;
+    -webkit-border-radius:5px;
+}
+#ar1{
+    width: 299px;
+    height: 220px;
+    right: 0;
+    border: 1px solid rgb(114, 114, 248)ck;
+    margin: auto;
+}
+#ar2{
+    width: 299px;
+    height: 220px;
+    left: 0;
+    border-right: 1px dashed rgb(211, 211, 211);
+}
+#pes{
+    width: 100%;
+    height: 100%;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#pes:hover{
+    color: rgb(253, 226, 186);
+}
+#env{
+    background-color: rgb(253, 226, 186);
+}
+#env:hover{
+    background-color: black;
+} 
+#env, #env:hover{
+    bottom: 30px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid red;
+    -webkit-border-radius:100px;
+}
+p{
+    margin: auto;
+    margin:25px;
+    background-color: rgb(237, 253, 253);
+    margin-right: 0px;
+    -webkit-border-radius:8px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inp{
+    width: 250px;
+    height: 23px;
+    background-color: rgb(237, 253, 253);
+    -webkit-border-radius:5px;
+}
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #212121;
+    font-size: 25px;
+    color: #fff;
+    bottom: 0;
+}
